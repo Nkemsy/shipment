@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+body{
+    font-family: "Lato", sans-serif;
+}
+.hero{
+    background: url('../src/assets/heroimage.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 551px;
+
+}
+h1{
+   font-size: 48px;
+   font-weight: 700; 
+}
+h2{
+    font-size: 32px;
+    font-weight: 600;
+}
+.btn-danger{
+    background-color: #E71800 !important; 
+}
+.text-danger{
+    color: #E71800 !important;
+}
+.bg-red{
+    background-color: #E71800 !important;
+    width: 180px;
+    height: 6px;
+    border-radius: 8px;
+}
+.bg-cover{
+    background: url('../src/assets/cover.png');
+    background-position: center; 
+    background-repeat: no-repeat;
+    height: 196px;
+}
+
+
