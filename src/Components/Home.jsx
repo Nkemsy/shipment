@@ -12,7 +12,7 @@ function Home() {
     <>
     <div className='hero'>
       <div className='container text-light text-center pt-5'>
-        <h1 className='pt-5' style={{marginTop:'60px'}} data-aos="fade-right"> Easy & Quick Cargo Shipping Services</h1>
+        <h1 className='pt-5' data-aos="fade-right" style={{marginTop:'60px'}} > Easy & Quick Cargo Shipping Services</h1>
         <p style={{fontSize:'24px'}} data-aos="fade-left">Book low cost sea freight shipping services. Get an instant quote.</p>
         <a href="/Tracking" className='btn btn-danger' data-aos="fade-up">Track Goods Here</a>
 
