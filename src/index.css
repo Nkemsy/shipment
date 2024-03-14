@@ -36,4 +36,36 @@ h2{
     height: 196px;
 }
 
+.preloader-container {
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background-color: #0a3d8a;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.logo-animation {
+background-image: url('../src/assets/preloader.png');
+width: 100px;
+height: 100px;
+animation: spin 2s linear infinite;
+background-position: center; 
+background-repeat: no-repeat;
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+.preloader-container h4{
+    color: aqua;
+}
+
 

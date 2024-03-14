@@ -20,7 +20,7 @@ function Home() {
     </div>
 
     <div className='container pt-5'>
-      <div className="text-center">
+      <div className="text-center" data-aos="fade-up">
       <h2>Welcome Crystal Shipment</h2>
       <div className="bg-red mx-auto"></div>
       <p className='pt-3'>Crystal Shipment is more than logistics. We can also optimize your packaging,manage your materials sourcing, and so much more.</p>
@@ -28,10 +28,10 @@ function Home() {
 
     </div>
     <div className="row mt-5" style={{margin:'auto 100px'}}>
-        <div className="col-md-6">
+        <div className="col-md-6" data-aos="fade-up">
           <img src={About} className="rounded img-fluid mb-5" alt="about" />
         </div>
-        <div className="col-md-6">
+        <div className="col-md-6" data-aos="fade-up">
         <p className='text-danger'>TRANSPORTATION COMPANY</p>
         <h2>We Provide Full Range Logistics Solution</h2>
         <p style={{textAlign:'justify'}}>We strongly believe that pursuing all of these goals is in our interest and in the interest of all of our stakeholders are us customers, employees, investors and the planet as a whole. We add value to cargo people’s interaction with us, with excellent services or products. Engaging our employees and nurture investment on the stock holds market we show concern , by engaging our employees and nurture investment on the stock holds market we show concern.</p>
@@ -41,14 +41,14 @@ function Home() {
       </div>
 
     <div className="container pt-5">
-      <div className="text-center">
+      <div className="text-center" data-aos="fade-up">
         <p className="text-danger">TYPES OF LOGISTICS</p>
         <h2>Covering All Logistics Fields</h2>
       </div>
 
       <Card/>
 
-      <div className="text-center">
+      <div className="text-center" data-aos="fade-up">
       <a href="" className="btn btn-danger">Load more</a>
       </div>
     </div>
@@ -56,11 +56,11 @@ function Home() {
     <div className="bg-warning mt-5" style={{minHeight: '200px', padding: '20px 0'}}>
       <div className="container pt-5">
         <div className="row d-flex justify-content-center">
-          <div className="col-md-8">
+          <div className="col-md-8" data-aos="fade-up">
             <h2>Delivering your world one package at a time</h2>
             <p>Crystal Shipment is more than logistics.</p>
           </div>
-          <div className="col-md-4 text-md-end text-sm-start">
+          <div className="col-md-4 text-md-end text-sm-start" data-aos="fade-up">
             <a href="" className="btn btn-danger">Request a Quote</a>
           </div>
         </div>
@@ -68,7 +68,7 @@ function Home() {
       
   </div>
 
-  <div className="container mt-5">
+  <div className="container mt-5" data-aos="fade-up">
         <div className="row">
           <div className="col-md-6">
             <h2>WHY CHOOSE US?</h2>

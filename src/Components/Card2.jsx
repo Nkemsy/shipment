@@ -19,7 +19,7 @@ function Card2() {
         <>
           <div className="row">
             {cardData.map((card, index) => (
-              <div className="col-md-4 mb-5">
+              <div className="col-md-4 mb-5" data-aos="fade-up">
                   <div className="card">
                     <img src={card.image} className='card-img-top' alt="" />
                   <div className="card-body">

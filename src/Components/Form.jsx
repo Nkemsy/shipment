@@ -1,4 +1,5 @@
-import React, { useState } from 'react'
+import React, { useState } from 'react';
+
                                                                                                   
 function Form() {
   const [formData, setFormData] = useState ({
@@ -34,8 +35,6 @@ const validateForm = () => {
     if(!formData.subject.trim()) {
       errors.subject = 'Subject is required';
       }
-    
-      
 
         if(!formData.message.trim()) {
           errors.message = 'Message is required';
@@ -46,9 +45,11 @@ const validateForm = () => {
           
 };
 
-const handleSubmit = (e) => {
+const handleSubmit =  (e) => {
   e.preventDefault();
   if (validateForm()) {
+
+    
     //processing the information
     alert('Message sent sucessfully');
     console.log(formData);
@@ -57,7 +58,8 @@ const handleSubmit = (e) => {
     window.location.href='/contact';
 
   }
-};
+}
+
 
   return (
     <>

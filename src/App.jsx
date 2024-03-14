@@ -1,4 +1,5 @@
-import React,{useEffect} from "react";
+import React,{ useState, useEffect} from "react";
+import Preloader from './Components/Preloader'
 import Nav from './Components/Header'
 import Home from './Components/Home'
 import Service from './Components/Service'
@@ -10,14 +11,26 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 
 function App() {
+  const [initialLoad, setInitialLoad] = useState(true);
+
+  useEffect(() => {
+    setTimeout(() => {
+    setInitialLoad(false);
+  }, 3500)
+  }, [])
+    
   useEffect(() => {
     AOS.init({
-      duration: 3000,
-      
+      duration: 3000,   
     });
   }, [])
 
   return (
+    <div className="preloader">
+      {initialLoad ? 
+        <Preloader/>
+      :
+  
     <div>
         <Nav/>
             <Router>
@@ -30,7 +43,9 @@ function App() {
             </Router>
         <Footer/>
     </div>
-  )
+}
+    </div>
+  );
 }
 
 export default App
